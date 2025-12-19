@@ -36,8 +36,3 @@ jobs:
           file: Dockerfile
           push: true
           tags: danglol240/it4409-sample:staging
-
-  deploy:
-    name: Deploy to Server
-    runs-on: ubuntu-latest
-    needs: build-and-push
